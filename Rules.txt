@@ -1,0 +1,86 @@
+Rules:
+
+All dean can see all dept head
+All dept head can see faculty
+
+President may see directors and deans and dept heads
+
+
+Student may able to connect to internet but can't see others
+
+Will implement wifi for all floors
+Students will be restricted to use wifi
+
+IT can see anything
+
+IT as an Superadmin
+President as an admin
+Heads as an limitted admin privilege
+Finance
+Registrar
+Librarian
+
+Cityhall MIS for IT management
+
+
+#Recomendation:
+Professional argument on the document
+Improve better IT resources
+
+************************
+[VLAN]
+VLAN ID 	"Name"				/Identified Users
+
+VLAN 100	| "Administrator" 	IT/MIS
+VLAN 200	| "Executive" 		President + Vice President
+VLAN 300	| "Head"			Heads + Directors + Deans
+VLAN 400	| "Service"			Offices 01 /Clinic/GuidanceCenter/OfficeOfStudentAffairs
+VLAN 500	| "Academe"			Faculty + Librarian
+VLAN 600	| "Operations"		Offices 02 / Finance Registrar
+VLAN 700	| "Students"		Students 
+VLAN 800	| "Guess"			Wifi users(guess)
+VLAN 900	Reserve
+VLAN 1000	Reserve
+
+************************
+[ACL]
+
+[Hacker] [Protocol]	[Victim]	[Port]
+ANY UDP <IP>	
+
+
+************************
+
+
+Services:
+
+Static IP [Firewall / Server]
+DHCP - The rest of comptuers
+VLAN - Virtual LAN
+ACL - Access Control List
+File Server - Shared network drive
+Wifi Router 
+Access Point 
+Firewall rules will be 
+
+
+For #future upgrades/ recomendations
+#MAC Sticky
+#MAC Filtering
+
+
+************************
+
+
+Data privacy law 2012
+City hall policy for data
+
+Recomendations:
+
+We found out that <>incosideration of the existing laws
+
+
+Multiple recomendations
+
+Timeline 
+Consider: Loan

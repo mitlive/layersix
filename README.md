@@ -1,5 +1,5 @@
-## Setup
-Setup for the project
+## Project
+CUP Network Upgrade
 
 ### Area
 

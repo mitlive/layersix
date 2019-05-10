@@ -1,5 +1,5 @@
-## Project
-CUP Network Upgrade
+## Project | CUP Network Upgrade
+
 
 ### Area
 
